@@ -1,0 +1,150 @@
+<html>
+	<head>
+		<style type="text/css">
+			body{font-family: sans-serif;}
+			p{display: inline-block;}
+			img{display: block;}
+			.container{width: 90%;position absolute;margin: auto;}
+			.title{position: relative;width: 90%;margin: auto;text-align: center;font-weight: bold;font-size: 18px;padding: 1%;}
+			.section{position: relative;width: 90%;margin: auto;padding: 2%;}
+			.subsection{position: relative; width: 98%;text-align: justify;padding: 10px;}
+			.heading{position: relative; width: 98%;text-align: left;font-size: 14px;font-weight: bold;}
+			.text{width: 95%;font-size: 12px;text-align: justify;padding: 10px 0px 10px 0px;}
+			.authors{position: relative;width: 80%;margin: auto;padding: 2%;font-style: italic;text-align: center;font-size: 12px;}
+			.image{width: 95%;font-size: 12px;text-align: left;}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="title">GENDER CLASSIFICATION FROM SPEECH</div>
+
+			<div class="authors">
+
+				<!-- Start edit here  -->
+				<p>Shubham Tulasyan, Roll No.: 150102065, Branch: ECE</p>; &nbsp; &nbsp;
+				<p>Chaitanya Nivsarkar, Roll No.: 150108006, Branch: EEE</p>; &nbsp; &nbsp;
+				<p>Karan Deshmukh, Roll No.: 150108011, Branch: EEE</p>; &nbsp; &nbsp;
+				<p>Ratikant Patil, Roll No.: 150108027, Branch: EEE</p>; &nbsp; &nbsp;
+				<!-- Stop edit here -->
+			</div>
+
+
+			<div class="section">
+				<div class="heading">Abstract</div>
+				<div class="text">
+					<!-- Start edit here  -->
+					Voice classification goes beyond just the frequency of the voice and thus requires additional feature detection and learning based on these features. We used five different models to get the initial accuracies and then used some ensemble methods such as bagging and feature extraction techniques such as PCA to improve the accuracies.
+					<!-- Stop edit here -->
+				</div>
+			</div>
+
+			<div class="section">
+				<div class="heading">1. Introduction</div>
+				<div class="text">
+
+					<!-- Start edit here  -->
+					Human ear has an excellent mechanism of perceiving the voice. It distinguishes the voice based on factors such as the loudness, frequency, the pitch and the resonating frequency. we will be distinguishing the human voice based on the genders - male or female. We will also be analyzing the be model that distinguishes the voices based on the training models.
+					<!-- Stop edit here -->
+
+				</div>
+
+				<div class="subsection">
+					<div class="heading">1.1 Introduction to Problem</div>
+					<div class="text">
+
+						<!-- Start edit here  -->
+						A human ear can distinguish between a male and female voice easily. If we want to teach a machine to do the same then what features of a voice would the machine require to classify ?
+						<!-- Stop edit here -->
+
+					</div>
+				</div>
+
+				<div class="subsection">
+					<div class="heading">1.2 Figure</div>
+					<div class="image">
+
+						<!-- Start edit here  -->
+						Block diagram of the system. All images must be put in a Pictures folder. An example image
+						<img src="Pictures/example.png" alt="This text displays when the image is umavailable" width="300px" height=""/>
+						<!-- Stop edit here -->
+
+					</div>
+				</div>
+				<div class="subsection">
+					<div class="heading">1.3 Literature Review</div>
+					<div class="text">
+
+						<!-- Start edit here  -->
+						Write something here.
+						<!-- Stop edit here -->
+
+					</div>
+				</div>
+				<div class="subsection">
+					<div class="heading">1.4 Proposed Approach</div>
+					<div class="text">
+
+						<!-- Start edit here  -->
+						Describe your approach briefly here.
+						<!-- Stop edit here -->
+
+					</div>
+				</div>
+				<div class="subsection">
+					<div class="heading">1.5 Report Organization</div>
+					<div class="text">
+
+						<!-- Start edit here  -->
+						The report is organized as follows: Problem section describes the problem we are trying to solve, Proposed method section describes different approaches we took to solve the problem, Experiment section describes the overall result and accuracies we got from all the different approaches and overall conclusions are mentioned in conclusion section.
+						<!-- Stop edit here -->
+					</div>
+				</div>
+			</div>
+			<div class="section">
+				<div class="heading">3. Experiments &amp; Results</div>
+				<div class="subsection">
+					<div class="heading">3.1 Dataset Description</div>
+					<div class="text">
+
+						<!-- Start edit here  -->
+						In order to analyze gender by voice and speech, a training database was required. A database was built using thousands of samples of male and female voices, each labeled by their gender of male or female. Voice samples were collected from the following resources:
+						1) VoxForge Speech Corpus
+						2) Kaggle
+						<!-- Stop edit here -->
+
+					</div>
+				</div>
+				<div class="subsection">
+					<div class="heading">3.2 Discussion</div>
+					<div class="text">
+
+						<!-- Start edit here  -->
+						Write something here.
+						<!-- Stop edit here -->
+					</div>
+				</div>
+			</div>
+			<div class="section">
+				<div class="heading">4. Conclusions</div>
+				<div class="subsection">
+					<div class="heading">4.1 Summary</div>
+					<div class="text">
+						<!-- Start edit here  -->
+						Five different models were trained to classify a voice sample as male or female. Two different techniques were proposed to reduce the dimensionality of data and voting among all the models was proposed to counter variance. The experimentation on the dataset shows an increase in accuracy for all the proposed methods. Random forest performed best in both the approaches involving dimensionality reduction. Voting among all the models seems to always increase the accuracy which is expected due to reduction in variance.
+						<!-- Stop edit here -->
+					</div>
+				</div>
+				<div class="subsection">
+					<div class="heading">4.2 Future Extensions</div>
+					<div class="text">
+
+						<!-- Start edit here  -->
+						Write something here.
+						<!-- Stop edit here -->
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</body>
+</html>
