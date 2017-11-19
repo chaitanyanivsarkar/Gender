@@ -70,9 +70,22 @@
 					</div>
 				</div>
 				<div class="subsection">
+					<div class="heading">1.3 Literature Review</div>
+					<div class="text">
+
+						<!-- Start edit here  -->
+						1. Introduction to Machine Learning by Ethem Alpaydin was used as a refrence when creating and optimising our models for machine learning.
+						2. <a href="https://github.com/primaryobjects/voice-gender">Primry Objects - Voice Gender</a> was used as a refrence when exracting features and creating a dataset.
+						3. <a href="https://pandas.pydata.org/pandas-docs/stable/">Pandas documentation</a>
+						<!-- Stop edit here -->
+
+					</div>
 				</div>
 				<div class="subsection">
 					<div class="heading">1.4 Proposed Approach</div>
+					<div class="text">
+						Initially we started out with some raw audio files from which we extracted 20 features using a program written in R. We ran random forest on these 20 features and got the 7 most useful features. The features are mean fundamental frequency, 25th Quartile ,standard deviation, Inter Quartile Range, specral flatness, mean frequency, mode frequency. These features were used to train a a voting based classifier that used the predictions made by 5 models along with their probablities to predict the final output. The models are Naieve Bayes, K-nearest neighbours, Support Vector Machine, Logistic Regression, Gradient Boosting Classifier. 
+					</div>
 				</div>
 				<div class="subsection">
 					<div class="heading">1.5 Report Organization</div>
