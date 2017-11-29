@@ -87,13 +87,13 @@
 					<div class="text">
 						Initially we started out with some raw audio files from which we extracted 20 features using a program written in R. We ran random forest on these 20 features and got the 7 most useful features. The features are mean fundamental frequency, 25th Quartile ,standard deviation, Inter Quartile Range, specral flatness, mean frequency, mode frequency. These features were used to train a a voting based classifier that used the predictions made by 5 models along with their probablities to predict the final output. The models are Naieve Bayes, K-nearest neighbours, Support Vector Machine, Logistic Regression, Gradient Boosting Classifier. 
 						<ul style="list-style-type:disc">
-						<li>Mean frequency(meanfreq): Mean of the mean frequencies obtained in each window of the audio signal, measured in kHz.</li>
-						<li>Standard Deviation of Frequency(sd): Standard deviation measures the amount of variation of data. A low standard deviation indicates that the values are close to mean, whereas a high standard deviation indicates that the data is moe spread out. </li>
-						<li>First Quantile(Q25): Quantiles are the points dividing range of probability distribution into contiguous intervals with equal probabilities. It is the data value when the standard distribution goes beyond the ﬁrst threshold. It is measured in kHz.</li>
-						<li>Inter Quantile Range(IQR) Interquantile Range is the difference between the ﬁrst (lower) and the third (upper) quartile and is measured in KHz. It is a measure of statistical dispersion</li>	
-						<li>Mean Fundamental Frequency(meanfun): Average of fundamental frequency measured across acoustic signal.</li>
-						<li>Spectral Flatness(sfm): Spectral Flatness is a measure used in digital signal processing to characterize an audio spectrum. It is typically measured in decibels and provides a way to quantify how noise-like a sound is, as opposed to being tone-like. It is given by the ratio of the geometric mean and the arithematic mean of the power spectral density.</li>
-						<li> Mode Frequency(mode): Mode frequency is the most frequently occurring frequency in the entire signal.</li>
+						<li><b>Mean frequency(meanfreq)</b>: Mean of the mean frequencies obtained in each window of the audio signal, measured in kHz.</li>
+						<li><b>Standard Deviation of Frequency(sd)</b>: Standard deviation measures the amount of variation of data. A low standard deviation indicates that the values are close to mean, whereas a high standard deviation indicates that the data is moe spread out. </li>
+						<li><b>First Quantile(Q25)</b>: Quantiles are the points dividing range of probability distribution into contiguous intervals with equal probabilities. It is the data value when the standard distribution goes beyond the ﬁrst threshold. It is measured in kHz.</li>
+						<li><b>Inter Quantile Range(IQR)</b>: Interquantile Range is the difference between the ﬁrst (lower) and the third (upper) quartile and is measured in KHz. It is a measure of statistical dispersion</li>	
+						<li><b>Mean Fundamental Frequency(meanfun)</b>: Average of fundamental frequency measured across acoustic signal.</li>
+						<li><b>Spectral Flatness(sfm)</b>: Spectral Flatness is a measure used in digital signal processing to characterize an audio spectrum. It is typically measured in decibels and provides a way to quantify how noise-like a sound is, as opposed to being tone-like. It is given by the ratio of the geometric mean and the arithematic mean of the power spectral density.</li>
+						<li><b>Mode Frequency(mode)</b>: Mode frequency is the most frequently occurring frequency in the entire signal.</li>
 						</ul> 
 					</div>
 				</div>
