@@ -90,7 +90,7 @@
 						Our solution had three stages as described below<br/>
 						<p>In stage 1 we found the most useful features by plotting the dataset taking two features at a time from that the seven most useful features were found. The seven most useful features are mean fundamental frequency, standard deviation, mean frequency, mode frequency, spectral flatness, inter quantile range, first quantile. Later a random forrest was used to validate the findings.</p>
 						<p>In stage 2 we started out with some raw audio files from which we extracted the aforementioned 7 features using a program written in R. These features were used to train a a voting based classifier that used the predictions made by 5 models along with their probablities to predict the final output. The models are Naive Bayes, K-nearest neighbours, Support Vector Machine, Logistic Regression, Gradient Boosting Classifier.</p>
-						<p>In stage 3 kaggle dataset was used to further train and test our models. Along with a testing set compiled by us.</p>
+						<p>In stage 3 kaggle dataset was used to further train and test our models. Along with a testing set compiled by us. The  code can be found <a href="https://github.com/chaitanyanivsarkar/Gender">here</a></p>
 						<ul style="list-style-type:disc">
 						<li><b>Mean frequency(meanfreq)</b>: Mean of the mean frequencies obtained in each window of the audio signal, measured in kHz.</li>
 						<li><b>Standard Deviation of Frequency(sd)</b>: Standard deviation measures the amount of variation of data. A low standard deviation indicates that the values are close to mean, whereas a high standard deviation indicates that the data is moe spread out. </li>
