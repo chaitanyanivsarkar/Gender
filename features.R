@@ -25,7 +25,7 @@ fetrs <- function(f, d, a=0, b=1) {
         return(features)
 }
 
-# feature extraction on the testing set
+# feature extraction on the Demonstration set
 feat <- fetrs("C:\\Users\\Chaitanya\\Documents\\Gender\\male and female\\female1.wav" ,"female1.csv" ,0 ,1)
 feat <- fetrs("C:\\Users\\Chaitanya\\Documents\\Gender\\male and female\\female2.wav" ,"female2.csv" ,0 ,1)
 feat <- fetrs("C:\\Users\\Chaitanya\\Documents\\Gender\\male and female\\female3.wav" ,"female3.csv" ,0 ,1)
